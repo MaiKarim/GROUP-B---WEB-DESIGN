@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matches & Fixtures - Football Agency Sierra Leone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-futbol"></i>
+                <h1>Football Agency <span>Sierra Leone</span></h1>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="matches.html" class="active">Matches</a></li>
+                    <li><a href="players.html">Players</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Matches Page Content -->
+    <section class="matches-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Matches & Fixtures</h2>
+                <p>Follow the latest fixtures, results, and upcoming games featuring our represented players.</p>
+            </div>
+            
+            <!-- Matches Tabs -->
+            <div class="matches-tabs">
+                <button class="tab-btn active" data-tab="all">All Matches</button>
+                <button class="tab-btn" data-tab="upcoming">Upcoming</button>
+                <button class="tab-btn" data-tab="completed">Results</button>
+                <button class="tab-btn" data-tab="live">Live Now</button>
+            </div>
+            
+            <!-- Matches Container -->
+            <div class="matches-container">
+                <!-- Match 1 - Upcoming -->
+                <div class="match-card" data-status="upcoming">
+                    <div class="match-teams">
+                        <div class="team">
+                            <div class="team-logo">KFC</div>
+                            <div>Kallon FC</div>
+                        </div>
+                        
+                        <div class="match-score">VS</div>
+                        
+                        <div class="team">
+                            <div>East End Lions</div>
+                            <div class="team-logo">EEL</div>
+                        </div>
+                    </div>
+                    
+                    <div class="match-details">
+                        <div class="match-date">December 15, 2025 | 16:00 GMT</div>
+                        <div class="match-venue">National Stadium, Freetown</div>
+                        <div class="match-status status-upcoming">Upcoming</div>
+                    </div>
+                </div>
+                
+                <!-- Match 2 - Completed -->
+                <div class="match-card" data-status="completed">
+                    <div class="match-teams">
+                        <div class="team">
+                            <div class="team-logo">BR</div>
+                            <div>Bo Rangers</div>
+                        </div>
+                        
+                        <div class="match-score">2 - 1</div>
+                        
+                        <div class="team">
+                            <div>Mighty Blackpool</div>
+                            <div class="team-logo">MB</div>
+                        </div>
+                    </div>
+                    
+                    <div class="match-details">
+                        <div class="match-date">December 8, 2025 | 15:30 GMT</div>
+                        <div class="match-venue">Bo Stadium, Bo City</div>
+                        <div class="match-status status-completed">FT</div>
+                    </div>
+                </div>
+                
+                <!-- Match 3 - Upcoming -->
+                <div class="match-card" data-status="upcoming">
+                    <div class="match-teams">
+                        <div class="team">
+                            <div class="team-logo">FCJ</div>
+                            <div>FC Johansen</div>
+                        </div>
+                        
+                        <div class="match-score">VS</div>
+                        
+                        <div class="team">
+                            <div>Old Edwardians</div>
+                            <div class="team-logo">OE</div>
+                        </div>
+                    </div>
+                    
+                    <div class="match-details">
+                        <div class="match-date">December 18, 2025 | 17:00 GMT</div>
+                        <div class="match-venue">Trade Center Field, Freetown</div>
+                        <div class="match-status status-upcoming">Upcoming</div>
+                    </div>
+                </div>
+                
+                <!-- Match 4 - Completed -->
+                <div class="match-card" data-status="completed">
+                    <div class="match-teams">
+                        <div class="team">
+                            <div class="team-logo"><img src="https://i.pinimg.com/736x/02/03/4d/02034de94f814d7b0dcdfc49ce69ea9a.jpg" alt=""width="100"></div>
+                            <div>Diamond Stars</div>
+                        </div>
+                        
+                        <div class="match-score">0 - 0</div>
+                        
+                        <div class="team">
+                            <div>Ports Authority FC</div>
+                            <div class="team-logo"><img src="https://i.pinimg.com/736x/51/d4/e4/51d4e41ab7613856d212421ea3d39aa2.jpg" alt=""width="100"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="match-details">
+                        <div class="match-date">December 5, 2025 | 16:00 GMT</div>
+                        <div class="match-venue">Koidu Sports Stadium, Koidu</div>
+                        <div class="match-status status-completed">FT</div>
+                    </div>
+                </div>
+                
+                <!-- Match 5 - Live -->
+                <div class="match-card" data-status="live">
+                    <div class="match-teams">
+                        <div class="team">
+                            <div class="team-logo"><img src="https://i.pinimg.com/1200x/f7/1f/34/f71f34bfd941c56a69772f4dd93fc2c6.jpg" alt=""width="98"></div>
+                            <div>Rangers</div>
+                        </div>
+                        
+                        <div class="match-score">1 - 1</div>
+                        
+                        <div class="team">
+                            <div>FC Kallon</div>
+                            <div class="team-logo"><img src="https://i.pinimg.com/736x/e1/ff/6e/e1ff6e345a0688fa351a4476186b039d.jpg" alt=""width="98"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="match-details">
+                        <div class="match-date">December 10, 2025 | LIVE</div>
+                        <div class="match-venue">Siaka Stevens Stadium, Freetown</div>
+                        <div class="match-status status-live">LIVE 65'</div>
+                    </div>
+                </div>
+                
+                <!-- Match 6 - Upcoming -->
+                <div class="match-card" data-status="upcoming">
+                    <div class="match-teams">
+                        <div class="team">
+                            <div class="team-logo"><img src="https://i.pinimg.com/736x/7f/52/13/7f5213b49a58c007f5a5360842966f6f.jpg" alt=""width="98"></div>
+                            <div>Wusum Stars</div>
+                        </div>
+                        
+                        <div class="match-score">VS</div>
+                        
+                        <div class="team">
+                            <div>Kamboi Eagles</div>
+                            <div class="team-logo"><img src="" alt=""width="98https://i.pinimg.com/1200x/fa/20/42/fa20426c5531cb1dc294311754fa300d.jpg"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="match-details">
+                        <div class="match-date">December 22, 2025 | 15:00 GMT</div>
+                        <div class="match-venue">Wusum Stadium, Makeni</div>
+                        <div class="match-status status-upcoming">Upcoming</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Additional Info Section -->
+            <div style="margin-top: 60px; background-color: #f8f9fa; padding: 40px; border-radius: 8px;">
+                <h3 style="text-align: center; margin-bottom: 20px; color: var(--dark);">League Standings</h3>
+                <div style="overflow-x: auto;">
+                    <table style="width: 100%; border-collapse: collapse;">
+                        <thead>
+                            <tr style="background-color: var(--primary); color: white;">
+                                <th style="padding: 15px; text-align: left;">Position</th>
+                                <th style="padding: 15px; text-align: left;">Team</th>
+                                <th style="padding: 15px; text-align: left;">Played</th>
+                                <th style="padding: 15px; text-align: left;">Won</th>
+                                <th style="padding: 15px; text-align: left;">Drawn</th>
+                                <th style="padding: 15px; text-align: left;">Lost</th>
+                                <th style="padding: 15px; text-align: left;">Points</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="border-bottom: 1px solid #ddd;">
+                                <td style="padding: 15px;">1</td>
+                                <td style="padding: 15px; font-weight: bold;">East End Lions</td>
+                                <td style="padding: 15px;">12</td>
+                                <td style="padding: 15px;">9</td>
+                                <td style="padding: 15px;">2</td>
+                                <td style="padding: 15px;">1</td>
+                                <td style="padding: 15px; font-weight: bold;">29</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #ddd;">
+                                <td style="padding: 15px;">2</td>
+                                <td style="padding: 15px; font-weight: bold;">Bo Rangers</td>
+                                <td style="padding: 15px;">12</td>
+                                <td style="padding: 15px;">8</td>
+                                <td style="padding: 15px;">3</td>
+                                <td style="padding: 15px;">1</td>
+                                <td style="padding: 15px; font-weight: bold;">27</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #ddd;">
+                                <td style="padding: 15px;">3</td>
+                                <td style="padding: 15px; font-weight: bold;">Kallon FC</td>
+                                <td style="padding: 15px;">12</td>
+                                <td style="padding: 15px;">7</td>
+                                <td style="padding: 15px;">4</td>
+                                <td style="padding: 15px;">1</td>
+                                <td style="padding: 15px; font-weight: bold;">25</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #ddd;">
+                                <td style="padding: 15px;">4</td>
+                                <td style="padding: 15px; font-weight: bold;">Mighty Blackpool</td>
+                                <td style="padding: 15px;">12</td>
+                                <td style="padding: 15px;">6</td>
+                                <td style="padding: 15px;">3</td>
+                                <td style="padding: 15px;">3</td>
+                                <td style="padding: 15px; font-weight: bold;">21</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Football Agency Sierra Leone</h3>
+                    <p>We are dedicated to discovering, nurturing, and promoting football talent from Sierra Leone to the global stage.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Address</h4>
+                                <p>15 Siaka Stevens Street, Freetown, Sierra Leone</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+232 77 075 538</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@footballagency.sl</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Football Agency Sierra Leone. All Rights Reserved. | Academic Project for Linköping University of Creative Technology</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

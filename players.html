@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Players - Football Agency Sierra Leone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-futbol"></i>
+                <h1>Football Agency <span>Sierra Leone</span></h1>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="matches.html">Matches</a></li>
+                    <li><a href="players.html" class="active">Players</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Players Page Content -->
+    <section class="players-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Players</h2>
+                <p>Discover the talented footballers we represent. Each player has unique skills and potential to excel at the highest levels.</p>
+            </div>
+            
+            <!-- Player Filters -->
+            <div class="player-filters">
+                <button class="filter-btn active" data-filter="all">All Players</button>
+                <button class="filter-btn" data-filter="forward">Forwards</button>
+                <button class="filter-btn" data-filter="midfielder">Midfielders</button>
+                <button class="filter-btn" data-filter="defender">Defenders</button>
+                <button class="filter-btn" data-filter="goalkeeper">Goalkeepers</button>
+            </div>
+            
+            <!-- Players Grid -->
+            <div class="players-grid">
+                <!-- Player 1 -->
+                <div class="player-card" data-position="forward">
+                    <div class="player-img">
+                        <img src="https://i.pinimg.com/736x/26/9e/01/269e01a985b02e518e546a1caad1d8cf.jpg" alt="Alhaji Kamara">
+                        <div class="player-position">Forward</div>
+                    </div>
+                    <div class="player-info">
+                        <h3 class="player-name">Alhaji Kamara</h3>
+                        <span class="player-age">Age: 14 | Nationality: Sierra Leonean</span>
+                        <span class="player-club">Current Club: Kallon FC</span>
+                        
+                        <div class="player-history">
+                            <h4>Career Highlights</h4>
+                            <ul>
+                                <li>Top Scorer - Sierra Leone Premier League 2023 (18 goals)</li>
+                                <li>Player of the Month - April 2023</li>
+                                <li>National Team Caps: 12</li>
+                            </ul>
+                            
+                            <h4 style="margin-top: 15px;">Club History</h4>
+                            <ul>
+                                <li>Kallon FC (2023-Present)</li>
+                                <li>Bo Rangers (2021-2023)</li>
+                                <li>East End Lions (2019-2021)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Player 2 -->
+                <div class="player-card" data-position="midfielder">
+                    <div class="player-img">
+                        <img src="https://i.pinimg.com/1200x/9a/bd/0e/9abd0e33c25bfe52e1fc6531b75e59cc.jpg" alt="Ibrahim Sesay">
+                        <div class="player-position">Midfielder</div>
+                    </div>
+                    <div class="player-info">
+                        <h3 class="player-name">Ibrahim Sesay</h3>
+                        <span class="player-age">Age: 18 | Nationality: Sierra Leonean</span>
+                        <span class="player-club">Current Club: FC Johansen</span>
+                        
+                        <div class="player-history">
+                            <h4>Career Highlights</h4>
+                            <ul>
+                                <li>Young Player of the Year 2022</li>
+                                <li>Most Assists - Sierra Leone Premier League 2022 (14 assists)</li>
+                                <li>National Team Caps: 8</li>
+                            </ul>
+                            
+                            <h4 style="margin-top: 15px;">Club History</h4>
+                            <ul>
+                                <li>FC Johansen (2022-Present)</li>
+                                <li>Mighty Blackpool (2020-2022)</li>
+                                <li>Ports Authority FC (2018-2020)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Player 3 -->
+                <div class="player-card" data-position="defender">
+                    <div class="player-img">
+                        <img src="https://i.pinimg.com/1200x/45/59/4b/45594b960577dfb0c0917d7929f9a664.jpg" alt="Samuel Koroma">
+                        <div class="player-position">Defender</div>
+                    </div>
+                    <div class="player-info">
+                        <h3 class="player-name">Samuel Koroma</h3>
+                        <span class="player-age">Age: 15 | Nationality: Sierra Leonean</span>
+                        <span class="player-club">Current Club: East End Lions</span>
+                        
+                        <div class="player-history">
+                            <h4>Career Highlights</h4>
+                            <ul>
+                                <li>Best Defender Award 2021</li>
+                                <li>Team Captain - East End Lions 2022-Present</li>
+                                <li>National Team Caps: 15</li>
+                            </ul>
+                            
+                            <h4 style="margin-top: 15px;">Club History</h4>
+                            <ul>
+                                <li>East End Lions (2021-Present)</li>
+                                <li>Old Edwardians (2019-2021)</li>
+                                <li>Diamond Stars (2017-2019)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Player 4 -->
+                <div class="player-card" data-position="goalkeeper">
+                    <div class="player-img">
+                        <img src="https://i.pinimg.com/1200x/0e/36/c2/0e36c23164d56da02da31d02c5beaafd.jpg" alt="Mohamed Bangura">
+                        <div class="player-position">Goalkeeper</div>
+                    </div>
+                    <div class="player-info">
+                        <h3 class="player-name">Mohamed Bangura</h3>
+                        <span class="player-age">Age: 17 | Nationality: Sierra Leonean</span>
+                        <span class="player-club">Current Club: Bo Rangers</span>
+                        
+                        <div class="player-history">
+                            <h4>Career Highlights</h4>
+                            <ul>
+                                <li>Golden Glove Award 2022 (15 clean sheets)</li>
+                                <li>Player of the Season - Bo Rangers 2022</li>
+                                <li>National Team Caps: 22</li>
+                            </ul>
+                            
+                            <h4 style="margin-top: 15px;">Club History</h4>
+                            <ul>
+                                <li>Bo Rangers (2020-Present)</li>
+                                <li>Central Parade (2018-2020)</li>
+                                <li>Freetown City FC (2016-2018)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Player 5 -->
+                <div class="player-card" data-position="forward">
+                    <div class="player-img">
+                        <img src="https://i.pinimg.com/1200x/df/4f/0d/df4f0db94a8794ed02c8ed49ba90fdae.jpg" alt="Abubakarr Kamara">
+                        <div class="player-position">Forward</div>
+                    </div>
+                    <div class="player-info">
+                        <h3 class="player-name">Abubakarr Kamara</h3>
+                        <span class="player-age">Age: 19 | Nationality: Sierra Leonean</span>
+                        <span class="player-club">Current Club: Mighty Blackpool</span>
+                        
+                        <div class="player-history">
+                            <h4>Career Highlights</h4>
+                            <ul>
+                                <li>Rising Star Award 2023</li>
+                                <li>Top Scorer - Sierra Leone U-21 League 2022</li>
+                                <li>Youth National Team: 18 appearances</li>
+                            </ul>
+                            
+                            <h4 style="margin-top: 15px;">Club History</h4>
+                            <ul>
+                                <li>Mighty Blackpool (2022-Present)</li>
+                                <li>Wusum Stars (2020-2022)</li>
+                                <li>Kamboi Eagles (2019-2020)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Player 6 -->
+                <div class="player-card" data-position="midfielder">
+                    <div class="player-img">
+                        <img src="https://i.pinimg.com/1200x/fe/4d/ba/fe4dba15fa74d644863a7bdb3fdd93fc.jpg" alt="David Sesay">
+                        <div class="player-position">Midfielder</div>
+                    </div>
+                    <div class="player-info">
+                        <h3 class="player-name">David Sesay</h3>
+                        <span class="player-age">Age: 16 | Nationality: Sierra Leonean</span>
+                        <span class="player-club">Current Club: FC Kallon</span>
+                        
+                        <div class="player-history">
+                            <h4>Career Highlights</h4>
+                            <ul>
+                                <li>Midfielder of the Year 2021</li>
+                                <li>Most Passes Completed - 2022 Season</li>
+                                <li>National Team Caps: 9</li>
+                            </ul>
+                            
+                            <h4 style="margin-top: 15px;">Club History</h4>
+                            <ul>
+                                <li>FC Kallon (2021-Present)</li>
+                                <li>Old Edwardians (2019-2021)</li>
+                                <li>Ports Authority FC (2017-2019)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Football Agency Sierra Leone</h3>
+                    <p>We are dedicated to discovering, nurturing, and promoting football talent from Sierra Leone to the global stage.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Address</h4>
+                                <p>15 Siaka Stevens Street, Freetown, Sierra Leone</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+232 77 075 538</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@footballagency.sl</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Football Agency Sierra Leone. All Rights Reserved. | Academic Project for Linköping University of Creative Technology</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
