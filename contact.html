@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Football Agency Sierra Leone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-futbol"></i>
+                <h1>Football Agency <span>Sierra Leone</span></h1>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                     <li><a href="about.html">About Us</a></li>
+                    <li><a href="matches.html">Matches</a></li>
+                    <li><a href="players.html">Players</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Page Content -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <p>Get in touch with Football Agency Sierra Leone for inquiries, partnerships, or to join our talent program.</p>
+            </div>
+            
+            <div class="contact-container">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>We're here to answer any questions you may have about our agency, players, or services. Reach out to us and we'll respond as soon as possible.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Our Office</h4>
+                                <p>15 Siaka Stevens Street<br>Freetown, Sierra Leone</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone Number</h4>
+                                <p>+232 77 075 538 (Office)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email Address</h4>
+                                <p>info@footballagency.sl<br>talent@footballagency.sl (For players)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Working Hours</h4>
+                                <p>Monday - Friday: 8:00 AM - 6:00 PM<br>Saturday: 9:00 AM - 2:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="player-representation">Player Representation</option>
+                                <option value="scouting-inquiry">Scouting Inquiry</option>
+                                <option value="partnership">Partnership Opportunity</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="media">Media Request</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Map Section -->
+            <div style="margin-top: 80px; border-radius: 8px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                <div style="background-color: var(--primary); color: white; padding: 20px; text-align: center;">
+                    <h3 style="margin: 0;">Our Location</h3>
+                </div>
+                <div style="height: 400px; background-color: #ddd; display: flex; align-items: center; justify-content: center;">
+                    <!-- In a real website, you would embed a Google Map here -->
+                    <div style="text-align: center; padding: 20px;">
+                        <i class="fas fa-map-marker-alt" style="font-size: 4rem; color: var(--primary); margin-bottom: 20px;"></i>
+                        <h3>Football Agency Sierra Leone</h3>
+                        <p>15 Siaka Stevens Street, Freetown, Sierra Leone</p>
+                        <p style="margin-top: 20px; font-style: italic;">Map integration would appear here in a live website</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Frequently Asked Questions -->
+            <div style="margin-top: 80px;">
+                <div class="section-title">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Find quick answers to common questions about our agency and services.</p>
+                </div>
+                
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <div style="background-color: white; padding: 25px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 3px 10px rgba(0,0,0,0.05);">
+                        <h4 style="color: var(--primary); margin-bottom: 10px;">How do I apply for player representation?</h4>
+                        <p>Submit your player profile through our contact form or send an email to talent@footballagency.sl with your playing history, videos, and contact information. Our scouting team reviews all submissions.</p>
+                    </div>
+                    
+                    <div style="background-color: white; padding: 25px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 3px 10px rgba(0,0,0,0.05);">
+                        <h4 style="color: var(--primary); margin-bottom: 10px;">What are your agency fees?</h4>
+                        <p>We operate on a commission basis only after successfully securing a contract for a player. There are no upfront fees for representation. Our standard commission is 10% of the player's contract value.</p>
+                    </div>
+                    
+                    <div style="background-color: white; padding: 25px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 3px 10px rgba(0,0,0,0.05);">
+                        <h4 style="color: var(--primary); margin-bottom: 10px;">Do you represent female footballers?</h4>
+                        <p>Yes, we represent both male and female footballers. Our agency is committed to developing all football talent in Sierra Leone, regardless of gender.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Football Agency Sierra Leone</h3>
+                    <p>We are dedicated to discovering, nurturing, and promoting football talent from Sierra Leone to the global stage.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Address</h4>
+                                <p>15 Siaka Stevens Street, Freetown, Sierra Leone</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+232 77 075 538</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@footballagency.sl</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Football Agency Sierra Leone. All Rights Reserved. | Academic Project for Linköping University of Creative Technology</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
